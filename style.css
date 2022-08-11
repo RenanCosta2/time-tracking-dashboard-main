@@ -27,5 +27,127 @@
     box-sizing: border-box;
     font-size: 18px;
     font-family: var(--font);
+    color: white;
+
+}
+
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--very-dark-blue);
+
+}
+
+main{
+
+    height: 420px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+
+}
+
+ main section{
+
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+
+}
+
+main .profile{
+
+    grid-area: 'profile';
+    grid-row: 1/3;
+    width: 230px;
+
+}
+
+main .profile .name{
+
+    height: 70%;
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+main .profile .name img{
+
+    border: 3px solid white;
+    border-radius: 100%;
+    width: 45%;
+
+}
+
+main .profile .name div{
+
+    padding-top: 20px;
+
+}
+
+main .profile .name .small{
+
+    font-weight: 300;
+    font-size: 0.7em;
+
+}
+
+main .profile .name .big{
+
+    font-size: 1.8em;
+
+}
+
+main .profile .dwm{
+
+    padding: 10px 25px;
+
+}
+
+main .profile .dwm p{
+
+    color: var(--desaturated-blue);
+    font-size: 0.8em;
+    padding: 7px 0px;
+
+}
+
+.work{
+
+    grid-area: 'work';
+
+}
+
+.play{
+
+    grid-area: 'play';
+
+}
+
+.study{
+
+    grid-area: 'study';
+
+}
+
+.exercise{
+
+    grid-area: 'exercise';
+
+}
+
+.social{
+
+    grid-area: 'social';
+
+}
+
+.self-care{
+
+    grid-area: 'self-care';
 
 }
