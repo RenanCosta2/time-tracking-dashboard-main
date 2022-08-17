@@ -58,6 +58,13 @@ main{
 
 }
 
+main .default div{
+
+    background-color: gray;
+    height: 75%;
+
+}
+
 main .profile{
 
     grid-area: 'profile';
