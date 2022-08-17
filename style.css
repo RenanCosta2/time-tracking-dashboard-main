@@ -53,17 +53,12 @@ main{
 
  main section{
 
+    width: 230px;
     background-color: var(--dark-blue);
     border-radius: 10px;
 
 }
 
-main .default div{
-
-    background-color: gray;
-    height: 75%;
-
-}
 
 main .profile{
 
@@ -123,38 +118,76 @@ main .profile .dwm p{
 
 }
 
-.work{
+main .work{
 
     grid-area: 'work';
 
 }
 
-.play{
+main .play{
 
     grid-area: 'play';
 
 }
 
-.study{
+main .study{
 
     grid-area: 'study';
 
 }
 
-.exercise{
+main .exercise{
 
     grid-area: 'exercise';
 
 }
 
-.social{
+main .social{
 
     grid-area: 'social';
 
 }
 
-.self-care{
+main .self-care{
 
     grid-area: 'self-care';
+
+}
+main .default{
+
+    display: flex;
+    align-items: flex-end;
+
+}
+
+main .default div{
+
+    height: 78%;
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+    
+
+}
+
+main .default div div{
+
+    display: flex;
+
+}
+
+main .default div div .activity{
+
+    height: 10%;
+    width: 80%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+main .default div div a svg{
+
+    margin-top: 27px;
 
 }
