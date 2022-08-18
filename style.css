@@ -53,6 +53,7 @@ main{
 
  main section{
 
+    background-color: var(--dark-blue);
     width: 210px;
     border-radius: 10px;
 
