@@ -44,7 +44,7 @@ body{
 main{
 
     height: 420px;
-    width: 1000px;
+    width: 900px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
@@ -53,8 +53,7 @@ main{
 
  main section{
 
-    width: 230px;
-    background-color: var(--dark-blue);
+    width: 210px;
     border-radius: 10px;
 
 }
@@ -118,41 +117,6 @@ main .profile .dwm p{
 
 }
 
-main .work{
-
-    grid-area: 'work';
-
-}
-
-main .play{
-
-    grid-area: 'play';
-
-}
-
-main .study{
-
-    grid-area: 'study';
-
-}
-
-main .exercise{
-
-    grid-area: 'exercise';
-
-}
-
-main .social{
-
-    grid-area: 'social';
-
-}
-
-main .self-care{
-
-    grid-area: 'self-care';
-
-}
 main .default{
 
     display: flex;
@@ -160,11 +124,48 @@ main .default{
 
 }
 
+main #work{
+
+    background-color: var(--light-red-work);
+
+}
+
+main #play{
+
+    background-color: var(--soft-blue);
+
+}
+
+main #study{
+
+    background-color: var(--light-red-study);
+
+}
+
+main #exercise{
+
+    background-color: var(--lime-green);
+
+}
+
+main #social{
+
+    background-color: var(--violet);
+
+}
+
+main #self-care{
+
+    background-color: var(--soft-orange);
+
+}
+
 main .default div{
 
+    background-color: var(--dark-blue);
     height: 78%;
     width: 100%;
-    background-color: gray;
+    padding: 20px;
     border-radius: 10px;
     
 
@@ -172,15 +173,29 @@ main .default div{
 
 main .default div div{
 
+    height: 35%;
     display: flex;
+    padding: 0px;
+
+}
+
+main .default div .time{
+
+    padding-bottom: 8px;
+    font-size: 2.3em;
+
+}
+
+main .default div .previous{
+
+    color: var(--pale-blue);
+    font-size: 0.7em;
 
 }
 
 main .default div div .activity{
 
-    height: 10%;
     width: 80%;
-    padding: 20px;
     font-weight: bold;
     font-size: 0.8em;
 
@@ -188,6 +203,6 @@ main .default div div .activity{
 
 main .default div div a svg{
 
-    margin-top: 27px;
+    margin-bottom: 5px;
 
 }
