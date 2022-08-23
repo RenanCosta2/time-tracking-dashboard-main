@@ -110,11 +110,21 @@ main .profile .dwm{
 
 }
 
-main .profile .dwm p{
+main .profile .dwm a{
 
+    display: block;
+    text-decoration: none;
     color: var(--desaturated-blue);
     font-size: 0.8em;
-    padding: 7px 0px;
+    margin: 13px 0px;
+    margin-right: 120px;
+    transition: 0.3s;
+
+}
+
+main .profile .dwm a:hover{
+
+    color: white;
 
 }
 
@@ -122,49 +132,55 @@ main .default{
 
     display: flex;
     align-items: flex-end;
-
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 120px -5px;
 }
 
 main #work{
 
     background-color: var(--light-red-work);
+    background-image: url('images/icon-work.svg');
 
 }
 
 main #play{
 
     background-color: var(--soft-blue);
+    background-image: url('images/icon-play.svg');
 
 }
 
 main #study{
 
     background-color: var(--light-red-study);
+    background-image: url('images/icon-study.svg');
 
 }
 
 main #exercise{
 
     background-color: var(--lime-green);
+    background-image: url('images/icon-exercise.svg');
 
 }
 
 main #social{
 
     background-color: var(--violet);
-
+    background-image: url('images/icon-social.svg');
 }
 
 main #self-care{
 
     background-color: var(--soft-orange);
-
+    background-image: url('images/icon-self-care.svg');
 }
 
 main .default div{
 
     background-color: var(--dark-blue);
-    height: 78%;
+    height: 80%;
     width: 100%;
     padding: 20px;
     border-radius: 10px;
@@ -205,5 +221,12 @@ main .default div div .activity{
 main .default div div a svg{
 
     margin-bottom: 5px;
+
+}
+
+main .default div div a:hover svg path{
+
+    fill: white;
+    transition: 0.3s;
 
 }
