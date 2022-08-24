@@ -185,7 +185,14 @@ main .default div{
     width: 100%;
     padding: 20px;
     border-radius: 10px;
-    
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+main .default div:hover, main .default div:hover div{
+
+    background-color: hsl(236, 50%, 30%);
 
 }
 
