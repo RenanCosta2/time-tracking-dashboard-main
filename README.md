@@ -7,3 +7,5 @@ Your users should be able to:
 - Switch between viewing Daily, Weekly, and Monthly stats
 
 # Screenshot
+
+![Captura de Tela (26)](https://user-images.githubusercontent.com/105220100/186691084-80ef0459-0a16-4d1b-899f-cb3ca65bee75.png)
